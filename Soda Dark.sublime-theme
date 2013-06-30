@@ -1,0 +1,27 @@
+[
+	{
+    "class": "tab_label",
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+    "fg": [255, 225, 128]
+	},
+	{
+    "class": "tabset_control",
+    "tab_height": 28
+	},
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "fg": [255, 255, 255, 255]
+    },
+        {
+        "class": "tab_control",
+        "settings": ["soda_classic_tabs"],
+        "attributes": ["selected"],
+        "layer0.texture": "User/Theme - Soda/Soda Dark/classic/tab-active-lighter.png"
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
+        "fg": [255, 255, 150, 255]
+    }
+]

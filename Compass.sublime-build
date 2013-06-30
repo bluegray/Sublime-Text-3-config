@@ -1,0 +1,6 @@
+{
+	"cmd": "[ -r '${project_path:${folder}}/config.rb' ] && compass compile --boring '${project_path:${folder}}' ; [ -r '${file_path}/config.rb' ] && compass watch '${file_path}' --boring",
+	"selector": "source.sass, source.scss",
+	"file_regex": ".*error\\s+(.+)\\s+.*Line ([0-9]+):\\s+()(.*)$",
+	"shell": "true"
+}

@@ -1,0 +1,105 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".lein*",
+				".#*",
+				"#*",
+				"*.sublime-workspace",
+				".emacs*",
+				".editorconfig"
+			],
+			"folder_exclude_patterns":
+			[
+				"target",
+				"checkouts",
+				".lein*",
+				".sass*"
+			],
+			"path": "/home/bluegray/devel/C2"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".lein*",
+				".#*",
+				"#*",
+				"*.sublime-workspace",
+				".emacs*"
+			],
+			"folder_exclude_patterns":
+			[
+				"target",
+				"checkouts"
+			],
+			"path": "/home/bluegray/devel/Core"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".lein*",
+				".#*",
+				"#*",
+				"*~",
+				"*.sublime-workspace",
+				".emacs*"
+			],
+			"folder_exclude_patterns":
+			[
+				"target",
+				"checkouts"
+			],
+			"path": "/home/bluegray/devel/Press"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".lein*",
+				".#*",
+				"#*",
+				"*.sublime-workspace",
+				".emacs*",
+				"*~"
+			],
+			"folder_exclude_patterns":
+			[
+				"target",
+				"checkouts"
+			],
+			"path": "/home/bluegray/devel/Server"
+		},
+		{
+			"path": "/home/bluegray/devel/Builder"
+		},
+		{
+			"folder_exclude_patterns":
+			[
+				".sass*"
+			],
+			"path": "/home/bluegray/devel/Resources"
+		},
+		{
+			"path": "/home/bluegray/devel/Cogs"
+		},
+		{
+			"path": "/home/bluegray/devel/Cogbot"
+		},
+		{
+			"path": "/home/bluegray/devel/octo"
+		},
+		{
+			"path": "/home/bluegray/devel/cogs-caps"
+		},
+		{
+			"path": "/home/bluegray/devel/sidebar-css"
+		},
+		{
+			"path": "/home/bluegray/devel/lientjie/wp-content/themes/lientjie"
+		},
+		{
+			"path": "/home/bluegray/devel/Server/src/cognician/server/views/templates"
+		}
+	]
+}
