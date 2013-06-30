@@ -1,7 +1,27 @@
 {
 	"installed_packages":
 	[
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"CSS Color Converter",
+		"CSS Selector Reveal",
+		"Dotfiles Syntax Highlighting",
+		"Emmet Css Snippets",
+		"Git",
+		"GitGutter",
+		"Highlight-Mixed-Whitespace",
+		"HTML5",
+		"lispindent",
 		"Package Control",
+		"SCSS",
+		"sublime-github",
+		"SublimeLinter",
+		"SublimeREPL",
+		"Sublimerge",
+		"Tag",
+		"TrailingSpaces",
+		"Unicode Character Highlighter",
 		"Theme - Soda"
 	]
 }

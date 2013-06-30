@@ -2,7 +2,7 @@
 	{
     "class": "tab_label",
     "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
-    "fg": [255, 225, 128]
+    "fg": [255, 225, 96]
 	},
 	{
     "class": "tabset_control",
@@ -22,6 +22,6 @@
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
-        "fg": [255, 255, 150, 255]
+        "fg": [255, 255, 48 , 255]
     }
 ]
