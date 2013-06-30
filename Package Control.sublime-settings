@@ -2,6 +2,7 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
+		"ClojureDocSearch",
 		"Color Highlighter",
 		"ColorPicker",
 		"CSS Color Converter",
@@ -20,8 +21,8 @@
 		"SublimeREPL",
 		"Sublimerge",
 		"Tag",
+		"Theme - Soda",
 		"TrailingSpaces",
-		"Unicode Character Highlighter",
-		"Theme - Soda"
+		"Unicode Character Highlighter"
 	]
 }
