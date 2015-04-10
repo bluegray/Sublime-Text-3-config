@@ -1,4 +1,8 @@
 {
+	"auto_upgrade_last_run": null,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"BracketHighlighter",
@@ -8,21 +12,39 @@
 		"CSS Color Converter",
 		"CSS Selector Reveal",
 		"Dotfiles Syntax Highlighting",
-		"Emmet Css Snippets",
+		"Gherkin (Cucumber) Formatter",
 		"Git",
 		"GitGutter",
-		"Highlight-Mixed-Whitespace",
+		"GitHubinator",
+		"Highlighter",
+		"HTML-CSS-JS Prettify",
 		"HTML5",
+		"HTMLAttributes",
+		"Indent XML",
+		"JsFormat",
 		"lispindent",
+		"MarkdownEditing",
 		"Package Control",
+		"Phpcs",
+		"phpfmt",
 		"SCSS",
+		"SCSS Expander",
+		"SCSS Snippets",
+		"SideBarEnhancements",
+		"StringEncode",
 		"sublime-github",
+		"SublimeCodeIntel",
 		"SublimeLinter",
+		"SublimeLinter-contrib-scss-lint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-pep8",
+		"SublimeLinter-php",
+		"SublimeLinter-phplint",
 		"SublimeREPL",
-		"Sublimerge",
 		"Tag",
 		"Theme - Soda",
 		"TrailingSpaces",
-		"Unicode Character Highlighter"
+		"xml2json"
 	]
 }

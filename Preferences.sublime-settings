@@ -1,17 +1,24 @@
 {
 	"caret_style": "phase",
-	"color_scheme": "Packages/User/Color Scheme - bluegray/bluegray.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/bluegray (SL).tmTheme",
+	"detect_indentation": true,
 	"draw_white_space": "selection",
 	"enable_telemetry": false,
 	"ensure_newline_at_eof_on_save": true,
 	"font_face": "ProggySquareTTSZ",
-	"font_size": 16,
+	"font_size": 9,
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"Markdown",
+		"SublimeREPL",
+		"Git",
+		"ClojureDocSearch",
+		"HTML5",
 		"Vintage",
-		"BracketHighlighter"
+		"Color Highlighter"
 	],
+	"line_padding_bottom": 1,
 	"match_brackets": true,
 	"match_brackets_content": true,
 	"rulers":
@@ -20,6 +27,10 @@
 		100
 	],
 	"soda_classic_tabs": true,
-	"soda_folder_icons": true,
-	"theme": "Soda Dark 3.sublime-theme"
+	"soda_folder_icons": false,
+	"spell_check": true,
+	"tab_size": 2,
+	"theme": "Soda Dark 3.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }

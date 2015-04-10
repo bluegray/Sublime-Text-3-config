@@ -1,0 +1,1914 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>author</key>
+		<string>Francois du Toit</string>
+		<key>name</key>
+		<string>bluegray</string>
+		<key>settings</key>
+		<array>
+			<dict>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#262626</string>
+					<key>caret</key>
+					<string>#D6D6D6</string>
+					<key>foreground</key>
+					<string>#FFFFE6</string>
+					<key>invisibles</key>
+					<string>#A5A5A552</string>
+					<key>lineHighlight</key>
+					<string>#303030</string>
+					<key>selection</key>
+					<string>#8383839C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Comment</string>
+				<key>scope</key>
+				<string>comment</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#87AE86</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>preprocessor</string>
+				<key>scope</key>
+				<string>meta.preprocessor.c</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FD8003</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>phpdoc</string>
+				<key>scope</key>
+				<string>keyword.other.phpdoc</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#568E4D</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>/*, #, //</string>
+				<key>scope</key>
+				<string>punctuation.definition.comment</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Directive</string>
+				<key>scope</key>
+				<string>keyword.other.directive</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#DEDEDE</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Line-number directives</string>
+				<key>scope</key>
+				<string>keyword.other.directive.line-number</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>underline</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Characters</string>
+				<key>scope</key>
+				<string>constant.character</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF8080</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>String</string>
+				<key>scope</key>
+				<string>string, string.unquoted, string.quoted</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#87CEEB</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Number</string>
+				<key>scope</key>
+				<string>constant.numeric</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#C4E0A7</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Built-in constant</string>
+				<key>scope</key>
+				<string>constant.language, support.constant.core</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D6D6AE</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>User-defined constant</string>
+				<key>scope</key>
+				<string>constant.character, constant.other, support.constant</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#CC9495</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Language Keyword</string>
+				<key>scope</key>
+				<string>keyword</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FED6AF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Language Control Keyword</string>
+				<key>scope</key>
+				<string>keyword.control, entity.other.attribute-name</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FED6AF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Module Keyword</string>
+				<key>scope</key>
+				<string>entity.name.module,support.other.module</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FF8000</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Operators</string>
+				<key>scope</key>
+				<string>keyword.operator , punctuation - punctuation.definition.comment</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FEFED6</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Floating-point infix operators</string>
+				<key>scope</key>
+				<string>source.ocaml keyword.operator.symbol.infix.floating-point</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>underline</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Floating-point prefix operators</string>
+				<key>scope</key>
+				<string>source.ocaml keyword.operator.symbol.prefix.floating-point</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>underline</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Storage Types</string>
+				<key>scope</key>
+				<string>storage.type , storage.modifier , support.type</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FFFB9D</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Variant Types</string>
+				<key>scope</key>
+				<string>entity.name.class.variant</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#4080A0</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Storage</string>
+				<key>scope</key>
+				<string>storage</string>
+				<key>settings</key>
+				<dict />
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Type name</string>
+				<key>scope</key>
+				<string>entity.name.type , entity.other</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D6D6D6</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Inherited class</string>
+				<key>scope</key>
+				<string>entity.other.inherited-class</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#D78D1B</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Type name</string>
+				<key>scope</key>
+				<string>storage.type.user-defined , meta.property-list</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#EFD77D</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Type name</string>
+				<key>scope</key>
+				<string>source.css meta.property-list.css meta.property-value.css constant.numeric.css keyword.other.unit.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#cd853f</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>SCSS default</string>
+				<key>scope</key>
+				<string>source.sass, source.scss</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#00FF7F</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>SCSS unit</string>
+				<key>scope</key>
+				<string>source.sass, source.scss constant.other.unit.sass</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Class type name</string>
+				<key>scope</key>
+				<string>source.css meta.property-list.css meta.property-value.css constant.numeric.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#fa8072</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Class type name</string>
+				<key>scope</key>
+				<string>source.css meta.selector.css entity.other.attribute-name.class.css, source.sass, source.scss entity.other.attribute-name.id.sass </string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FA8072</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Class type name</string>
+				<key>scope</key>
+				<string>entity.name.type</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#F4A020</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS tag name</string>
+				<key>scope</key>
+				<string>entity.name.tag.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#B8A15C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>SCSS keyword name</string>
+				<key>scope</key>
+				<string>source.sass, source.scss keyword.control.untitled </string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#6495ED</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS ID</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.id.css, entity.other.attribute-name.id.css punctuation.definition.entity.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#D49F90</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Class</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.css punctuation.definition.entity.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#C2AB67</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Property name</string>
+				<key>scope</key>
+				<string>support.type.property-name.css, meta.property-name.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#6495ed</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS color</string>
+				<key>scope</key>
+				<string>constant.other.color.rgb-value.css, constant.other.color.rgb-value.css punctuation.definition.constant.css, source.sass, source.scss constant.other.rgb-value.sass </string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#8CBDBC</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Property value</string>
+				<key>scope</key>
+				<string>support.constant.property-value.css, support.function.misc.css, source.sass, source.scss support.constant.property-value.sass </string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FFFFEE</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>CSS Pseudo element</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#C27170</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Function argument</string>
+				<key>scope</key>
+				<string>variable.parameter</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Invalid</string>
+				<key>scope</key>
+				<string>invalid</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold italic underline</string>
+					<key>foreground</key>
+					<string>#FF5274</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>html attribute</string>
+				<key>scope</key>
+				<string>entity.other.attribute-name.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D6D7AF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>html entity</string>
+				<key>scope</key>
+				<string>entity.name.tag</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#6495ed</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>PHP block delimiters</string>
+				<key>scope</key>
+				<string>punctuation.section.embedded.begin.php,punctuation.section.embedded.end.php</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#898989</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>variable</string>
+				<key>scope</key>
+				<string>variable.parameter, variable.other</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FED6AF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>php function</string>
+				<key>scope</key>
+				<string>support.function.construct</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FED6AF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>$variable prefix</string>
+				<key>scope</key>
+				<string>punctuation.definition.variable</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FEFED6</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>function/method</string>
+				<key>scope</key>
+				<string>support.function,meta.function-call</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FFFD87</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>built-in function</string>
+				<key>scope</key>
+				<string>support.function</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#C7BA18</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>braces</string>
+				<key>scope</key>
+				<string>meta.brace</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#98d9d9</string>
+					<key>fontStyle</key>
+					<string> bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>string begin</string>
+				<key>scope</key>
+				<string>punctuation.definition.string.begin,punctuation.definition.string.end</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D6D6D680</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>html tag begin/end</string>
+				<key>scope</key>
+				<string>punctuation.definition.tag.begin.html,punctuation.definition.tag.end.html,meta.tag.structure.any.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#FED5AE94</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>SQL</string>
+				<key>scope</key>
+				<string>keyword.other.DML.sql, keyword.other.data-integrity.sql</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#B7B7B7</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>other SQL</string>
+				<key>scope</key>
+				<string>source.sql, constant.other.database-name.sql, constant.other.table-name.sql, keyword.operator.star</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#95BFF3</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff</string>
+				<key>scope</key>
+				<string>source.diff</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#393939</string>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FFFFFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff.toc</string>
+				<key>scope</key>
+				<string>source.diff meta.diff.comment, source.diff meta.toc-list.comment.diff</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#9F9D15</string>
+					<key>foreground</key>
+					<string>#FFFFFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff from-file</string>
+				<key>scope</key>
+				<string>meta.diff.header.from-file</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#393939</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#CA7172</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff to-file</string>
+				<key>scope</key>
+				<string>meta.diff.header.to-file</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#393939</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#60B38A</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff range</string>
+				<key>scope</key>
+				<string>meta.diff.range.unified</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#393939</string>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#8CD0D3</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff inserted</string>
+				<key>scope</key>
+				<string>markup.inserted.diff</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#393939</string>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#60B38A</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff deleted</string>
+				<key>scope</key>
+				<string>markup.deleted.diff</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#393939</string>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#CA7172</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>regex</string>
+				<key>scope</key>
+				<string>string.regexp</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#C76F41</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>regex - repitition</string>
+				<key>scope</key>
+				<string>string.regexp.arbitrary-repitition</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#9E6A5F</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>regex - repitition {}</string>
+				<key>scope</key>
+				<string>punctuation.definition.arbitrary-repitition</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFFFFF5E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>regex - character class</string>
+				<key>scope</key>
+				<string>string.regexp.character-class</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CB8E81</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>regex - character class []</string>
+				<key>scope</key>
+				<string>punctuation.definition.character-class</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FFFFFF5E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>HTML entity</string>
+				<key>scope</key>
+				<string> constant.character.entity.html, punctuation.definition.entity.html</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#FFD653</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>HTML entity</string>
+				<key>scope</key>
+				<string>variable.language.js</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string />
+					<key>foreground</key>
+					<string>#EFD77D</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>HTML and XML tag punctuation</string>
+				<key>scope</key>
+				<string>punctuation.definition.tag.html, punctuation.definition.tag.begin.xml, punctuation.definition.tag.end.xml, meta.tag.block.any.html, meta.tag.inline.any.html, punctuation.separator.key-value.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#AB9377</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Javascript class</string>
+				<key>scope</key>
+				<string>support.class.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F09772</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Javascript operator</string>
+				<key>scope</key>
+				<string>keyword.operator.js</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#8AA6C2</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>SASS variable</string>
+				<key>scope</key>
+				<string>variable.scss, source.scss variable, source.sass, source.scss variable.parameter.sass </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D1AFC7</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>SASS parent ref</string>
+				<key>scope</key>
+				<string>source.scss entity.name.tag.reference.css</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD0AD</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Doctype</string>
+				<key>scope</key>
+				<string>string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFF5CF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Doctype</string>
+				<key>scope</key>
+				<string>comment</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+					<key>foreground</key>
+					<string>#888</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>bracket highlight</string>
+				<key>scope</key>
+				<string>brackethighlight</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#ffaaaa22</string>
+					<key>foreground</key>
+					<string>#f55</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>bracket Highlight Tag</string>
+				<key>scope</key>
+				<string>bracketHighlightTag</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#ffaaaa88</string>
+					<key>foreground</key>
+					<string>#f55</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.sass, source.scss keyword.control.at-rule.sass </string>
+				<key>scope</key>
+				<string>source.sass, source.scss keyword.control.at-rule.sass </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#CD5C5C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.sass, source.scss constant.numeric.sass </string>
+				<key>scope</key>
+				<string>source.sass, source.scss constant.numeric.sass </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFA0A0</string>
+				</dict>
+			</dict>
+
+
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.normal.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.normal.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ff0000</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.bracket.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.bracket.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell string.quoted.double.shell variable.other.normal.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell string.quoted.double.shell variable.other.normal.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell variable.other.bracket.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell variable.other.bracket.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell meta.scope.logical-expression.shell string.quoted.double.shell variable.other.positional.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell meta.scope.logical-expression.shell string.quoted.double.shell variable.other.positional.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.positional.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.positional.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.normal.shell punctuation.definition.variable.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.normal.shell punctuation.definition.variable.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.normal.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.normal.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.positional.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.positional.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.normal.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell variable.other.normal.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell meta.scope.logical-expression.shell string.quoted.double.shell variable.other.positional.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell meta.scope.logical-expression.shell string.quoted.double.shell variable.other.positional.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.bracket.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell variable.other.bracket.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell string.quoted.double.shell variable.other.normal.shell </string>
+				<key>scope</key>
+				<string>source.shell string.quoted.double.shell variable.other.normal.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell variable.other.bracket.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell variable.other.bracket.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFD700</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell punctuation.definition.string.begin.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell punctuation.definition.string.begin.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F0E68C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell punctuation.definition.string.end.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell string.quoted.double.shell punctuation.definition.string.end.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F0E68C</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell keyword.control.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell meta.scope.if-block.shell keyword.control.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#C57A5F</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell keyword.control.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell keyword.control.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#C57A5F</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.shell meta.scope.if-block.shell support.function.builtin.shell </string>
+				<key>scope</key>
+				<string>source.shell meta.scope.if-block.shell support.function.builtin.shell </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#4169E1</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.expression.map.clojure constant.string.symbole.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.expression.map.clojure constant.string.symbole.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFA0A0</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.expression.map.clojure constant.string.symbole.clojure keyword.operator.symbole.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.expression.map.clojure constant.string.symbole.clojure keyword.operator.symbole.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F96D6D</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff.deleted</string>
+				<key>scope</key>
+				<string>markup.deleted</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F92672</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff.inserted</string>
+				<key>scope</key>
+				<string>markup.inserted</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A6E22E</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>diff.changed</string>
+				<key>scope</key>
+				<string>markup.changed</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#967EFB</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure meta.expression.vector.clojure meta.expression.vector.clojure punctuation.definition.vector </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure meta.expression.vector.clojure meta.expression.vector.clojure punctuation.definition.vector </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0f0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure meta.expression.vector.clojure punctuation.definition.vector </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure meta.expression.vector.clojure punctuation.definition.vector </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ff0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#08f</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure entity.name.function.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure entity.name.function.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#D53D5A</string>
+				</dict>
+			</dict>
+
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FED6AF</string>
+				</dict>
+			</dict>
+
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure keyword.operator.qualified.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure keyword.operator.qualified.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFC170</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure meta.sexpr.clojure keyword.operator.qualified.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure meta.sexpr.clojure keyword.operator.qualified.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFC170</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0f0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0f0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ff0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ff0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ff0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0ff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0ff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0ff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.catch_form.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f0f</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f0f</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f0f</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.function.lambda.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#00f</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#00f</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure string.regexp.clojure punctuation.definition.string.begin.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure string.regexp.clojure punctuation.definition.string.begin.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7e7e7e</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.function.let_form.clojure meta.structure.bindings.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.structure.binding.symbole.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure string.regexp.clojure punctuation.definition.string.begin.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure string.regexp.clojure punctuation.definition.string.begin.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7e7e7e</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure string.regexp.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.structure.binding_exp.sexp.clojure meta.sexpr.clojure string.regexp.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#C76F41</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.namespace.clojure support.other.keyword.namespace.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.namespace.clojure support.other.keyword.namespace.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffa0a0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.namespace.clojure entity.name.namespace.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.namespace.clojure entity.name.namespace.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.namespace.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.namespace.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.namespace.clojure constant.string.symbole.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.namespace.clojure constant.string.symbole.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffa0a0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure constant.string.symbole.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure constant.string.symbole.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffa0a0</string>
+				</dict>
+			</dict>
+
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure constant.string.symbole.clojure keyword.operator.symbole.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure constant.string.symbole.clojure keyword.operator.symbole.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ffa0a0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.namespace.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.namespace.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.sexpr.clojure meta.function.def_form.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.sexpr.clojure meta.function.def_form.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure entity.name.function.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure entity.name.function.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7ccd7c</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure string.docstring.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure string.docstring.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#cd5555</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure string.docstring.clojure string.quoted.double.begin.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure string.docstring.clojure string.quoted.double.begin.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#cd5555</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#f00</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure entity.name.function.clojure source.symbol.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure entity.name.function.clojure source.symbol.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#7ccd7c</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.begin.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.begin.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.end.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.end.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure storage.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#fff</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#e06060</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.begin.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.begin.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.end.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.clojure meta.function.body.clojure meta.function.parameters.vector.clojure punctuation.definition.vector.end.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#6060e0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>scope</key>
+				<string>source.clojure meta.function.macro.clojure meta.function.body.clojure meta.function.body.code.clojure meta.sexpr.clojure meta.sexpr.clojure meta.sexpr.clojure </string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#60f060</string>
+				</dict>
+			</dict>
+
+		<dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Error</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.error</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#D02000</string>
+            </dict>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Gutter Mark</string>
+            <key>scope</key>
+            <string>sublimelinter.gutter-mark</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFFFFF</string>
+            </dict>
+        </dict></array>
+		<key>uuid</key>
+		<string>a0ed0cd2-c4e6-495d-9cbf-6ca660b92f22</string>
+	</dict>
+</plist>

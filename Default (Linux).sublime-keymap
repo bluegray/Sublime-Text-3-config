@@ -2,11 +2,12 @@
 { "keys": ["shift+tab"], "command": "reindent"},
 { "keys": ["alt+q"], "command": "reindent", "args": {"single_line": false}},
 { "keys": ["f9"], "command": "get_selection_scope"},
+{ "keys": ["f10"], "command": "get_selection_code"},
 { "keys": ["shift+f9"], "command": "get_scope"},
 { "keys": ["ctrl+shift+backspace"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
 { "keys": ["ctrl+comma", "w"], "command": "delete_trailing_spaces" },
 { "keys": ["ctrl+alt+space"], "command": "expand_selection", "args": {"to": "scope"} },
-{ "keys": ["ctrl+p", "ctrl+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+{ "keys": ["ctrl+shift+alt+p", "ctrl+shift+z", "super+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
 { "keys": ["alt+ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
 { "keys": ["ctrl+comma", "e"], "command": "encode_html_entities" },
 { "keys": ["ctrl+x", "ctrl+s"], "command": "save", "context":
@@ -14,6 +15,10 @@
 			{ "key": "selection_empty", "operator": "equal", "operand": true, "match_all": true }
 		] },
 { "keys": ["ctrl+alt+c"], "command": "colorconvert" },
+
+{ "keys": ["ctrl+alt+b"], "command": "bh_toggle_high_visibility"},
+{ "keys": ["ctrl+alt+h"], "command": "html_entitize"},
+{ "keys": ["ctrl+alt+g"], "command": "html_deentitize"},
 
 //// Git
 { "keys": ["alt+x", "s"], "command": "git_status" },
@@ -59,5 +64,16 @@
 
   { "keys": ["super+b"], "command": "repl_transfer_current", "args": {"scope": "block"}},
   { "keys": ["super+r"], "command": "refresh_namespaces_in_repl"},
-  { "keys": ["super+i"], "command": "switch_to_current_namespace_in_repl"}
+  { "keys": ["super+i"], "command": "switch_to_current_namespace_in_repl"},
+
+
+//// sublime-github
+
+  { "keys": ["super+g"], "command": "githubinator", "args": { "permalink": true }},
+
+//// js-format
+	{
+		"keys": ["alt+q"], "command": "js_format",
+		"context": [{"key": "selector", "operator": "equal", "operand": "source.js,source.json"}]
+	}
 ]
