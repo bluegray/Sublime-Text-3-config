@@ -10,13 +10,14 @@
 	"highlight_line": true,
 	"ignored_packages":
 	[
+		"HTML5",
 		"Markdown",
-		"SublimeREPL",
+		"Color Highlighter",
 		"Git",
 		"ClojureDocSearch",
-		"HTML5",
-		"Vintage",
-		"Color Highlighter"
+		"SublimeREPL",
+		"CSS",
+		"Vintage"
 	],
 	"line_padding_bottom": 1,
 	"match_brackets": true,

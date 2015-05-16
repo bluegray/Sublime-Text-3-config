@@ -25,6 +25,11 @@
                 "max-line-length": null,
                 "select": ""
             },
+            "php": {
+                "@disable": false,
+                "args": [],
+                "excludes": []
+            },
             "phplint": {
                 "@disable": false,
                 "args": [],
